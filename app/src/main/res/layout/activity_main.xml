@@ -29,10 +29,22 @@
             android:id="@+id/hello"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
             android:layout_marginVertical="30dp"
+            android:background="@color/colorAccent"
             android:inputType="number"
-            android:text="hi"/>
+            android:text="hi" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:background="#000"
+            android:text="hi"
+            android:max="100"
+            android:progress="80"
+            android:indeterminate="true" />
 
 
     </LinearLayout>
