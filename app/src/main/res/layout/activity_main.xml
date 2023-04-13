@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="60dp"
+        android:layout_width="120dp"
         android:layout_height="400dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,6 +32,7 @@
             android:layout_marginVertical="30dp"
             android:background="@color/colorAccent"
             android:inputType="number"
+            android:minHeight="48dp"
             android:text="hi" />
 
         <ProgressBar
@@ -44,7 +45,15 @@
             android:text="hi"
             android:max="100"
             android:progress="80"
-            android:indeterminate="true" />
+            android:indeterminate="true"
+            android:minHeight="48dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="press for nothing"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:drawableRight="@drawable/abc_vector_test" />
 
 
     </LinearLayout>
