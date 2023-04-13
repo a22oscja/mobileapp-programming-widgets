@@ -17,15 +17,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="100dp"
+        android:layout_width="60dp"
         android:layout_height="400dp"
-        android:layout_marginTop="164dp"
         android:orientation="vertical"
-        android:layout_marginVertical="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_marginVertical="30dp"
+            android:inputType="number"
+            android:text="hi"/>
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
