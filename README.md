@@ -74,3 +74,7 @@ Lastly a button is added:
 ```
 The button recieves quite basic styling and a basic picture of an arrow that exists by default in
 Android Studio.
+
+All these on screen elements together look as follows:
+
+![screenshot](screenshot.png)
